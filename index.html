@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Slider</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="slidershow-container">
+		<div class="mySlides fade">
+			<img src="http://photos.lifeisphoto.ru/124/0/1242618.jpg">
+		</div>
+		<div class="mySlides fade">
+			<img src="http://cryazone.com/uploads/posts/2010-09/prirodnye-foto-ot-fotografa-drew-hopper-3.jpg">
+		</div>
+		<div class="mySlides fade">
+			<img src="http://www.epochtimes.com.ua/sites/default/files/field/juicebox/03-2016/peyzazhi2.jpg">
+		</div>
+		<div class="mySlides fade">
+			<img src="http://www.mytravelbook.org/object_foto/2017/04/Sarezskoe_ozero_5.jpg">
+		</div>
+		<div class="prev">
+			<img onclick="plusSlides(-1)" src="left.png">
+		</div>
+		<div class="next">
+			<img onclick="plusSlides(1)" src="right.png">
+		</div>
+	</div>
+	<br>
+	<div class="navi">
+		<img class="preview"  onclick="currentSlide(1)" src="http://photos.lifeisphoto.ru/124/0/1242618.jpg" style="width:10%; height: 20%;">
+		<img class="preview"  onclick="currentSlide(2)" src="http://cryazone.com/uploads/posts/2010-09/prirodnye-foto-ot-fotografa-drew-hopper-3.jpg" style="width:10%; height: 20%;">
+		<img class="preview"  onclick="currentSlide(3)" src="http://www.epochtimes.com.ua/sites/default/files/field/juicebox/03-2016/peyzazhi2.jpg" style="width:10%; height: 20%;">
+		<img class="preview"  onclick="currentSlide(4)" src="http://www.mytravelbook.org/object_foto/2017/04/Sarezskoe_ozero_5.jpg" style="width:10%; height: 20%;">
+	</div>
+
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
